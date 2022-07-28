@@ -15,8 +15,8 @@ const Header = () => {
         </div>
 
         <div className='header-socials'>
-          <a href='https://github.com' target='_blank' rel='noopener noreferrer'><AiFillGithub fontSize='2.5em'/></a>
-          <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'><AiFillLinkedin fontSize='2.5em'/></a>
+          <a href='https://github.com/davidbaptista' target='_blank' rel='noopener noreferrer'><AiFillGithub fontSize='2.5em'/></a>
+          <a href='https://www.linkedin.com/in/davidbaptista00/' target='_blank' rel='noopener noreferrer'><AiFillLinkedin fontSize='2.5em'/></a>
         </div>
       </div>
     </header>
