@@ -1,12 +1,11 @@
 @import '../../vars.scss';
 
 header {
-	height: 100vh;
 	padding-top: 7rem;
 	overflow: hidden;
 }
 
-.header__container {
+.header-container {
 	text-align: center;
 	height: 100%;
 	position: relative;
@@ -19,26 +18,13 @@ header {
 	justify-content: center;
 }
 
-.header__socials {
+.header-socials {
 	margin-top: 2.5rem;
 	display: flex;
 	gap: 1.2rem;
 	justify-content: center;
 }
 
-.header__socials > a {
+.header-socials > a {
 	margin: 1rem 0.5rem;
-}
-
-@media screen and (max-width: 1024px) {
-	header {
-		height: 68vh;
-	}
-}
-
-
-@media screen and (max-width: 600px) {
-	header {
-		height: 100vh;
-	}
 }
