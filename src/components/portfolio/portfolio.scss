@@ -10,9 +10,9 @@
 	background-color: $color-bg-alt;
 	padding: 1.3rem;
 	border-radius: 2rem;
-	border: 1px solid transparent;
+	border: 5px solid $color-primary-alt;
 	transition: $transition;
- }
+}
 
  .portfolio-item:hover {
 	border-color: $color-primary-alt;
@@ -32,6 +32,12 @@
 .portfolio-item-cta {
 	display: flex;
 	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.text-center {
+	text-align: center;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,4 +1,4 @@
-import IMG1 from '../../assets/portfolio/stare.jpg';
+import IMG1 from '../../assets/portfolio/placeholder.png';
 import './portfolio.scss'
 
 
@@ -60,10 +60,10 @@ const Portfolio = () => {
                 <div className='portfolio-item-img'>
                   <img src={image} alt={title} />
                 </div>
-                <h3>{title}</h3>
+                <h3 className='text-center'>{title}</h3>
                 <div className='portfolio-item-cta'>
                   <a href={github} className='btn' target='_blank' rel='noopener noreferrer'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Live Demo</a>
+                  <a href={demo} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Demo</a>
                 </div>
               </article>
             )
